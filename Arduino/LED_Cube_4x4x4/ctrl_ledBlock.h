@@ -1,5 +1,4 @@
 #include "pinSetting.h"
-                // = *block_arr
 
 int block_size[5] = {0, };
 int a, b, c, d, e;
@@ -9,17 +8,6 @@ const int sizeX = 2;
 const int sizeY = 3;
 const int sizeZ = 4;
 
-void setup(){
-
-  Serial.begin(9600);
-}
-
-void loop(){
-
-  turnOn_led(2, 4, 2, 2, 2);
-  delay(10000);
-  
-}
 void turnOn_led(int a, int b, int c, int d, int e){
 
     for(int i=0; i<5; i++){
